@@ -15,26 +15,26 @@ A modern, responsive web application built with React and React Bootstrap. This 
 ### Prerequisites
 
 - Node.js
-- A running instance of the [Node.js Image Management Backend](link-to-backend-repo).
+- A running instance of the [Node.js Image Management Backend](https://github.com/nate2427/AugXLabs-Interview-Node-Backend).
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone [your-frontend-repo-url]
-   cd [your-frontend-repo-directory]
+   $ git clone https://github.com/nate2427/AugXLabs-Interview-React-Frontend.git frontend
+   $ cd frontend
    ```
 
 2. Install the required packages:
 
    ```bash
-   npm install
+   $ npm install
    ```
 
 3. Start the development server:
    ```bash
-   npm start
+   $ npm start
    ```
 
 ## Usage
