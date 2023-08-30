@@ -1,0 +1,5 @@
+[[redirects]]
+  # This redirect ensures that all routes fallback to index.html, allowing react-router to handle routing.
+  from = "/*"
+  to = "/index.html"
+  status = 200
