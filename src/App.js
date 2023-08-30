@@ -25,7 +25,7 @@ function App() {
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/upload" element={<UploadPage />} />
               {/* default route goes to dashboard */}
-              <Route path="*" element={<Dashboard />} />
+              <Route path="/" element={<Dashboard />} />
             </Routes>
           </Col>
         </Row>
