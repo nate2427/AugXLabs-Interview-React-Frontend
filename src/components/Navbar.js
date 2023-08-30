@@ -14,10 +14,10 @@ function Navbar() {
           borderBottomWidth: "2px",
           borderBottomStyle: "solid",
         }}
-        href="/dashboard"
+        href="/"
         className="text-white mb-2"
       >
-        Dashboard
+        Photo Vault
       </Nav.Link>
       <Nav.Link
         style={{
