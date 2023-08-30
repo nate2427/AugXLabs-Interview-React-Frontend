@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Dark Cyberpunk Gradient */
+  background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+  background-attachment: fixed; /* This ensures the background stays in place when scrolling */
+  color: white; /* Set default text color to white for better contrast */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* For the navbar */
+.navbar {
+  background: linear-gradient(90deg, #8a00ff, #0044ff);
+  /* Additional styles for the navbar if needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* For the bottom of the cards */
+.card-footer {
+  background: linear-gradient(90deg, #8a00ff, #0044ff);
+  /* Additional styles for the card footer if needed */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root {
+  height: 100vh;
+  overflow-y: scroll;
 }
