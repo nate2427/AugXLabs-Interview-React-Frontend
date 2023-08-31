@@ -1,5 +1,4 @@
-[[redirects]]
-  # This redirect ensures that all routes fallback to index.html, allowing react-router to handle routing.
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[build]
+  # Specify the command to build your site and the directory where the static files are located.
+  command = "npm run build && cp _redirects build/_redirects"
+  publish = "build"
